@@ -16,7 +16,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"ID\": \"bcd432\"\r\n}",
+					"raw": "{\r\n    \"ID\": \"{{ID}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "b9af7a94-ae39-46e9-9a31-2370292fda50",
+			"id": "7f4b0801-905e-430e-9b6e-2624127ca821",
 			"key": "isbn",
 			"value": ""
 		}
