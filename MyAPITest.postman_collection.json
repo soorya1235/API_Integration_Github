@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "1b144db1-a9c1-4244-8288-1a87e8c62478",
+		"name": "MyAPITest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6429445"
+	},
+	"item": [
+		{
+			"name": "Delete Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ID\": \"bcd432\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/Library/DeleteBook.php",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Library",
+						"DeleteBook.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Book",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsondata = pm.response.json()\r",
+							"\r",
+							"pm.test(\"Checking the responsecode\",function()\r",
+							"{\r",
+							"pm.response.to.have.status(200);\r",
+							"pm.expect(jsondata).to.have.property(\"Msg\");\r",
+							"pm.expect(jsondata.Msg).to.eql(\"successfully added\");\r",
+							"}\r",
+							");\r",
+							"\r",
+							"pm.test(\"Checking the Headers\",function()\r",
+							"{\r",
+							"    pm.response.to.have.header(\"Date\");\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"    pm.response.to.have.header(\"Content-Length\");\r",
+							"    pm.response.to.be.header(\"Content-Type\",\"application/json;charset=UTF-8\");\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.eql(\"application/json;charset=UTF-8\");\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+							"    pm.expect(pm.response.text()).to.include(\"successfully added\");\r",
+							"}\r",
+							"\r",
+							");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var code = pm.globals.get(\"companycode\")\r",
+							"console.log(code)\r",
+							"const val = pm.variables.replaceIn('{{$randomInt}}');\r",
+							"console.log(code + val)\r",
+							"pm.collectionVariables.set(\"isbn\",code+val)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\":\"Learn Apium Automation with Java\",\r\n\"isbn\":\"{{isbn}}\",\r\n\"aisle\":\"93332\",\r\n\"author\":\"john foe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/Library/Addbook.php",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Library",
+						"Addbook.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/Library/GetBook.php?ID=bcd111432",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"Library",
+						"GetBook.php"
+					],
+					"query": [
+						{
+							"key": "ID",
+							"value": "bcd111432"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "isbn",
+			"value": ""
+		}
+	]
+}
