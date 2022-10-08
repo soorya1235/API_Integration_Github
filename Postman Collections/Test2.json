@@ -106,7 +106,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/Library/GetBook.php?ID=bcd111432",
+					"raw": "{{base_url}}/Library/GetBook.php?ID={{isbn}}",
 					"host": [
 						"{{base_url}}"
 					],
@@ -117,7 +117,7 @@
 					"query": [
 						{
 							"key": "ID",
-							"value": "bcd111432"
+							"value": "{{isbn}}"
 						}
 					]
 				}
@@ -127,7 +127,7 @@
 	],
 	"variable": [
 		{
-			"id": "a8dc5a86-1adc-4147-8723-f541c2a9108d",
+			"id": "0c6c3e17-46bf-4d9c-b31d-ee5fd118d49b",
 			"key": "isbn",
 			"value": ""
 		}
