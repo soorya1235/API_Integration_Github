@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Delete Book",
-			"_postman_id": "506ef684-9005-4b0e-b83d-5405c72e429f",
+			"id": "506ef684-9005-4b0e-b83d-5405c72e429f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -76,7 +76,7 @@
 					}
 				}
 			],
-			"_postman_id": "47d432c8-a16e-4838-837c-676ca6a0e593",
+			"id": "47d432c8-a16e-4838-837c-676ca6a0e593",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "Get Book",
-			"_postman_id": "01b17a9a-2a84-4244-8335-be81f1a3b16a",
+			"id": "01b17a9a-2a84-4244-8335-be81f1a3b16a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -127,10 +127,9 @@
 	],
 	"variable": [
 		{
-			"id": "f5d38d28-443f-4ff1-8028-340358d08348",
+			"id": "6a88d010-5904-42ea-90ad-4a39e6bd202c",
 			"key": "isbn",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
