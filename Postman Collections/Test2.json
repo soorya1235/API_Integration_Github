@@ -40,7 +40,7 @@
 							"\r",
 							"console.log(responseData);\r",
 							"pm.environment.set(\"ID\", jsondata.ID);\r",
-							"console.log({{ID}})\r",
+							"console.log(\"ID\")\r",
 							"\r",
 							"pm.test(\"Checking the responsecode\",function()\r",
 							"{\r",
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "edb83748-0a93-458c-8b35-701c612d1e5f",
+			"id": "7241e482-7b59-4410-9599-ea7a994a8bd6",
 			"key": "isbn",
 			"value": ""
 		}
