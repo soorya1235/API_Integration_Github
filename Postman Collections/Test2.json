@@ -112,7 +112,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}/Library/GetBook.php?ID={{isbn}}",
+					"raw": "{{base_url}}/Library/GetBook.php?ID={{ID}}",
 					"host": [
 						"{{base_url}}"
 					],
@@ -123,7 +123,7 @@
 					"query": [
 						{
 							"key": "ID",
-							"value": "{{isbn}}"
+							"value": "{{ID}}"
 						}
 					]
 				}
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "2f61c981-885a-42cf-8d85-2d293e94d21d",
+			"id": "b9af7a94-ae39-46e9-9a31-2370292fda50",
 			"key": "isbn",
 			"value": ""
 		}
