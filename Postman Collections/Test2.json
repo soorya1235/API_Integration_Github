@@ -38,7 +38,7 @@
 							"var jsondata = pm.response.json()\r",
 							"\r",
 							"\r",
-							"console.log(responseData);\r",
+							"console.log(jsondata);\r",
 							"pm.environment.set(\"ID\", jsondata.ID);\r",
 							"console.log(\"ID\")\r",
 							"\r",
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "d3fed795-ac83-4080-9fd8-176e44208f2e",
+			"id": "bc8fba7c-a7e0-4c3d-a0d7-79056d7902af",
 			"key": "isbn",
 			"value": ""
 		}
