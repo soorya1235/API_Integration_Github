@@ -65,7 +65,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -133,7 +133,7 @@
 	],
 	"variable": [
 		{
-			"id": "86d79917-1970-4c87-a8f2-c09d45a977de",
+			"id": "9c9adca8-91a2-4ab9-96ac-52e1b22d54ea",
 			"key": "isbn",
 			"value": ""
 		}
