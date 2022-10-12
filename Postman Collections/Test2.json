@@ -51,12 +51,11 @@
 						"id": "160971da-c1da-4970-ae38-671435fc7bdc",
 						"exec": [
 							"var code = pm.globals.get(\"companycode\")\r",
-							"pm.environment.set(\"code\",code)\r",
+							"//pm.environment.set(\"code\",code)\r",
 							"console.log(code)\r",
 							"const val = pm.variables.replaceIn('{{$randomInt}}');\r",
 							"console.log(val)\r",
-							"var cd = {{code}} + val\r",
-							"pm.collectionVariables.set(\"isbn\",val)"
+							"pm.collectionVariables.set(\"isbn\",pm.globals.get(\"companycode\")+val)"
 						],
 						"type": "text/javascript"
 					}
@@ -157,13 +156,13 @@
 	],
 	"variable": [
 		{
-			"id": "5b006db9-0944-44d1-9b63-da3e01750298",
+			"id": "dff7e2bb-fbe1-4349-8dab-ed52e81e317d",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "8c0888ec-a0a2-4e87-ab68-82e72d39d50f",
+			"id": "4961e2e9-940b-4d73-9cf5-2b188157dda1",
 			"key": "ID",
 			"value": "",
 			"type": "string"
