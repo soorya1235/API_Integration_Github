@@ -56,7 +56,7 @@
 							"const val = pm.variables.replaceIn('{{$randomInt}}');\r",
 							"console.log(val)\r",
 							"var cd = {{code}} + val\r",
-							"pm.collectionVariables.set(\"isbn\",{{code}}+val)"
+							"pm.collectionVariables.set(\"isbn\",val)"
 						],
 						"type": "text/javascript"
 					}
@@ -157,13 +157,13 @@
 	],
 	"variable": [
 		{
-			"id": "9c2155b5-ad64-48ff-849f-eac445d476ed",
+			"id": "e5984178-b455-4d6c-a6d9-462e9c81ba61",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "bcb3e430-1818-415e-b9f7-8248e3406f87",
+			"id": "06199928-ca67-4e2e-8a92-f332452cf566",
 			"key": "ID",
 			"value": "",
 			"type": "string"
