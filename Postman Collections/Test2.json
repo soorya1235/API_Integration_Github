@@ -130,11 +130,40 @@
 			"response": []
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9b924428-de0b-4257-9bca-3f51ecf16932",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4cde3472-9e47-4d57-9134-8a1ed1de275e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "22627a77-2684-4b47-a3e5-2b8483d979fe",
+			"id": "757f9ef9-1313-42d1-9568-a2e8a4810202",
 			"key": "isbn",
-			"value": ""
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "223f7e19-6e65-4835-ba39-84e89bba1097",
+			"key": "ID",
+			"value": "",
+			"type": "string"
 		}
 	]
 }
