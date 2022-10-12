@@ -51,6 +51,7 @@
 						"id": "160971da-c1da-4970-ae38-671435fc7bdc",
 						"exec": [
 							"var code = pm.globals.get(\"companycode\")\r",
+							"pm.environment.set(\"cs\",code)\r",
 							"console.log(code)\r",
 							"const val = pm.variables.replaceIn('{{$randomInt}}');\r",
 							"console.log(val)\r",
@@ -156,13 +157,13 @@
 	],
 	"variable": [
 		{
-			"id": "9bc956d1-f328-4bec-95cd-be773cbc7944",
+			"id": "723f3083-c09b-4c01-b40b-a33b9283d88e",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "56ddcb5e-6045-448c-b1df-d6f46e7ba0a2",
+			"id": "40407a7e-4b77-4b8e-95b8-09a78e687ac7",
 			"key": "ID",
 			"value": "",
 			"type": "string"
