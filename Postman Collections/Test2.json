@@ -154,13 +154,13 @@
 	],
 	"variable": [
 		{
-			"id": "ef5657d0-0671-415d-b735-9ed05e273ccf",
+			"id": "79c1479d-0471-452e-912a-da4d5f88dcea",
 			"key": "isbn",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "719830a3-24c5-43fb-b045-87ae8390d68f",
+			"id": "e718eb07-4cf6-43b6-a34f-1a6085b291c7",
 			"key": "ID",
 			"value": "",
 			"type": "string"
