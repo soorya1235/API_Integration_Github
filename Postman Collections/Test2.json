@@ -157,13 +157,13 @@
 	],
 	"variable": [
 		{
-			"id": "e5984178-b455-4d6c-a6d9-462e9c81ba61",
+			"id": "6242e36e-c044-4813-a5c7-3bd8b9fd3671",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "06199928-ca67-4e2e-8a92-f332452cf566",
+			"id": "006edeca-4865-4043-ac1c-ab9553667a34",
 			"key": "ID",
 			"value": "",
 			"type": "string"
