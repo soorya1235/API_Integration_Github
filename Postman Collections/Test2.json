@@ -35,7 +35,7 @@
 							"    pm.response.to.have.header(\"Content-Length\");\r",
 							"    pm.response.to.be.header(\"Content-Type\",\"application/json;charset=UTF-8\");\r",
 							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.eql(\"application/json;charset=UTF-8\");\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
 							"    pm.expect(pm.response.text()).to.include(\"successfully added\");\r",
 							"}\r",
 							"\r",
@@ -132,7 +132,7 @@
 	],
 	"variable": [
 		{
-			"id": "5f0b9ca5-d048-41ac-89b4-d9b612eba60a",
+			"id": "a78e58a3-4995-47a4-b8ac-ba09da000edd",
 			"key": "isbn",
 			"value": ""
 		}
