@@ -25,7 +25,6 @@
 							"pm.response.to.have.status(200);\r",
 							"pm.expect(jsondata).to.have.property(\"Msg\");\r",
 							"pm.expect(jsondata.Msg).to.eql(\"successfully added\");\r",
-							"bodydata = json.parse\r",
 							"}\r",
 							");\r",
 							"\r",
@@ -133,7 +132,7 @@
 	],
 	"variable": [
 		{
-			"id": "899b64f8-4f54-4368-a1fc-07f7421a0c42",
+			"id": "8df41485-6e26-498d-ae88-b51a1c12ac38",
 			"key": "isbn",
 			"value": ""
 		}
