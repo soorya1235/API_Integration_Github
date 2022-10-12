@@ -22,7 +22,6 @@
 							"\r",
 							"pm.test(\"Checking the responsecode\",function()\r",
 							"{\r",
-							"console.log(jsondata.headers)\r",
 							"pm.response.to.have.status(200);\r",
 							"pm.expect(jsondata).to.have.property(\"Msg\");\r",
 							"pm.expect(jsondata.Msg).to.eql(\"successfully added\");\r",
@@ -31,6 +30,7 @@
 							"\r",
 							"pm.test(\"Checking the Headers\",function()\r",
 							"{\r",
+							"    console.log(jsondata.headers)\r",
 							"    pm.response.to.have.header(\"Date\");\r",
 							"    pm.response.to.have.header(\"Content-Type\");\r",
 							"    pm.response.to.have.header(\"Content-Length\");\r",
@@ -155,13 +155,13 @@
 	],
 	"variable": [
 		{
-			"id": "50595230-23b0-4faf-8475-f44387e592b5",
+			"id": "abbd4202-4f32-4ab0-aba9-94b2df61282b",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "16351900-c149-40b7-b27c-0b84fab77630",
+			"id": "0295fb16-2f04-4bbd-9fbe-b326f43a910d",
 			"key": "ID",
 			"value": "",
 			"type": "string"
