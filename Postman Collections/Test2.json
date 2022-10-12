@@ -138,7 +138,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4ebefbd3-942e-49fa-b441-2e6294bb9833",
+				"id": "a3db3947-4e39-4023-9f8b-3cd26a38ec7b",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -148,7 +148,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "3f574233-7611-4dc1-9a2d-f9361f38f0dc",
+				"id": "2e833a82-07a1-424d-bff9-cb79c0615311",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -158,14 +158,20 @@
 	],
 	"variable": [
 		{
-			"id": "fbbdacd9-7b00-48f8-83cb-a135e51d63c9",
+			"id": "b880d6f8-672e-43df-97d0-7f8bb442f361",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "e707c151-50de-45c6-8edc-550ff4231df9",
+			"id": "c0aaefb9-3321-4beb-aba8-28e832faccd7",
 			"key": "ID",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "70ce3f2d-5d33-4ce8-a4c0-38247a4a7a99",
+			"key": "code",
 			"value": "",
 			"type": "string"
 		}
