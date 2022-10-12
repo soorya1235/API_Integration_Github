@@ -55,6 +55,8 @@
 							"console.log(code)\r",
 							"const val = pm.variables.replaceIn('{{$randomInt}}');\r",
 							"console.log(val)\r",
+							"console.log(\"printing the company code variable\")\r",
+							"console.log(pm.environment.get(\"companycode\"))\r",
 							"pm.collectionVariables.set(\"isbn\",pm.globals.get(\"companycode\")+val)"
 						],
 						"type": "text/javascript"
@@ -156,13 +158,13 @@
 	],
 	"variable": [
 		{
-			"id": "8d3334cd-dca5-498e-9152-98d2d888453c",
+			"id": "67f99e76-246c-43d8-9383-2487048dca36",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "95b5bfd4-55cf-4394-b494-7c21b80e2a6c",
+			"id": "848b2327-ad4e-4a87-9831-7e0c96ff641c",
 			"key": "ID",
 			"value": "",
 			"type": "string"
