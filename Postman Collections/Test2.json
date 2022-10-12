@@ -22,6 +22,7 @@
 							"\r",
 							"pm.test(\"Checking the responsecode\",function()\r",
 							"{\r",
+							"console.log(jsondata.headers)\r",
 							"pm.response.to.have.status(200);\r",
 							"pm.expect(jsondata).to.have.property(\"Msg\");\r",
 							"pm.expect(jsondata.Msg).to.eql(\"successfully added\");\r",
@@ -154,13 +155,13 @@
 	],
 	"variable": [
 		{
-			"id": "45bca92a-8a00-4978-aa96-1ec38e375b21",
+			"id": "7267348a-350b-4369-9340-fc3ba84d372f",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "ec2e7b86-8393-498c-8c16-a9aba58d3f09",
+			"id": "11aebd8d-cb45-4626-b64d-e4cffe393b87",
 			"key": "ID",
 			"value": "",
 			"type": "string"
