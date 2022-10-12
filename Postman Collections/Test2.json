@@ -57,7 +57,7 @@
 							"console.log(val)\r",
 							"console.log(\"printing the company code variable\")\r",
 							"console.log(pm.collectionVariables.get(\"code\"))\r",
-							"pm.collectionVariables.set(\"isbn\",pm.globals.get(\"code\")+val)"
+							"pm.collectionVariables.set(\"isbn\",pm.collectionVariables.get(\"code\")+val)"
 						],
 						"type": "text/javascript"
 					}
@@ -158,19 +158,19 @@
 	],
 	"variable": [
 		{
-			"id": "17e5d2a0-964b-4397-b418-502d2cbca492",
+			"id": "07556962-0bdf-4850-9e87-aa4e99cb493b",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "8fd0adc2-95c0-43d8-ac01-c11c0c0b354b",
+			"id": "1a74d236-5841-468e-ab73-8e1196027fe5",
 			"key": "ID",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ec78f41d-d87c-47ca-9fe3-9e74fa19844b",
+			"id": "56658a32-43fb-40a0-ba7f-9c7fbc8125d3",
 			"key": "code",
 			"value": "",
 			"type": "string"
