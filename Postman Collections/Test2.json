@@ -158,19 +158,19 @@
 	],
 	"variable": [
 		{
-			"id": "dab03860-5127-4039-9f7e-236a5a792d23",
+			"id": "c298ac61-268c-45e1-874b-a6e408efb5aa",
 			"key": "isbn",
 			"value": "RS90",
 			"type": "string"
 		},
 		{
-			"id": "1eeceb9c-ac39-4898-93b5-0ebbe808ff48",
+			"id": "904a6a02-6bd9-4332-a6a3-d41368efe568",
 			"key": "ID",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c93dd07a-f653-4b64-801b-2c650d661312",
+			"id": "33082c0c-d0e7-4f74-84f6-44031e2542b7",
 			"key": "code",
 			"value": "",
 			"type": "string"
